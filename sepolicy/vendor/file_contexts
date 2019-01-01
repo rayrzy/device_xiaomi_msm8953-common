@@ -29,3 +29,6 @@
 
 # Ir
 /dev/peel_ir					u:object_r:peel_device:s0
+
+# Light HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.msm8953					u:object_r:hal_light_default_exec:s0
