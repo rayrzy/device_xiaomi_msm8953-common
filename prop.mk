@@ -181,6 +181,10 @@ telephony.lteOnCdmaDevice=1 \
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 vendor.service.qti.ims.enabled=1
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.protected_contents=true
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true
