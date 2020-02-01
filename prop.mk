@@ -142,6 +142,7 @@ debug.stagefright.omx_default_rank.sw-audio=1 \
 debug.stagefright.omx_default_rank=0 \
 media.msm8956hw=0 \
 vendor.mm.enable.qcom_parser=1048575 \
+media.stagefright.thumbnail.prefer_hw_codecs=true \
 mmp.enable.3g2=true \
 vendor.vidc.dec.downscalar_height=1088 \
 vendor.vidc.dec.downscalar_width=1920 \
