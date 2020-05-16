@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdisplayconfig \
+    libvulkan \
     libqdMetaData.system \
     libtinyxml
 
