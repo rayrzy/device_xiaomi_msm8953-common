@@ -85,6 +85,7 @@ persist.vendor.dpm.loglevel=0
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.egl.hw=0 \
 debug.enable.sglscale=1 \
+debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
 debug.sf.enable_hwc_vds=1 \
 debug.sf.hw=0 \
@@ -101,6 +102,7 @@ ro.opengles.version=196610 \
 ro.qualcomm.cabl=2 \
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
 ro.vendor.display.cabl=2 \
+sdm.debug.disable_skip_validate=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1
@@ -108,6 +110,10 @@ vendor.gralloc.enable_fb_ubwc=1
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
+
+# Enable QC2 bufferqueue block-pool
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.qc2.use.bqpool=1
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
