@@ -7,6 +7,9 @@ type camera_socket, file_type, data_file_type;
 # Fingerprint
 type sysfs_fingerprint, sysfs_type, fs_type;
 
+# FPS info
+type sysfs_fps, sysfs_type, fs_type;
+
 # Rmt
 type debugfs_rmt, debugfs_type, fs_type;
 

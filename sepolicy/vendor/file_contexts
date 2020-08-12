@@ -13,6 +13,9 @@
 # Fpc Fingerprint
 /data/fpc(/.*)?		u:object_r:fingerprintd_data_file:s0
 
+# FPS Info
+/sys/devices/virtual/graphics/fb0/measured_fps                                u:object_r:sysfs_fps:s0
+
 # Goodix Fingerprint
 /dev/goodix_fp		u:object_r:fingerprint_device:s0
 
