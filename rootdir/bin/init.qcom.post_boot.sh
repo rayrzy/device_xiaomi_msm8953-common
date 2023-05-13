@@ -32,7 +32,7 @@ target=`getprop ro.board.platform`
 function configure_zram_parameters() {  
     # For >=2GB Non-Go device, size = 1GB
     if [ -f /sys/block/zram0/disksize ]; then
-        echo 1073741824 > /sys/block/zram0/disksize
+        echo 3221225472 > /sys/block/zram0/disksize
 
         # ZRAM may use more memory than it saves if SLAB_STORE_USER
         # debug option is enabled.
