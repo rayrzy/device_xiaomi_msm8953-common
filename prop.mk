@@ -204,10 +204,6 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true
 
-# Usb
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.vendor.usb.config.extra=none
-
 # USAP
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
